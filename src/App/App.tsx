@@ -43,6 +43,7 @@ const App = () => {
 					autoPlay
 					muted
 					loop
+					playsInline
 				></video>
 			</BackgroundVid>
 			<Content>
