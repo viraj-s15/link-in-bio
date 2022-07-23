@@ -11,10 +11,6 @@ const App = () => {
 	const handleClick = () => {
 		alert("Work in progress....")
 	}
-	console.log(
-		"Video by Enrique Hoyos: https://www.pexels.com/video/drone-view-of-big-waves-rushing-to-the-shore-3571264/"
-	)
-
 	console.log("Gonna update this with time")
 
 	return (
@@ -42,7 +38,12 @@ const App = () => {
 				]}
 			/>
 			<BackgroundVid>
-				<video src='src/assets/video.mp4' autoPlay muted loop></video>
+				<video
+					src='https://storage.coverr.co/videos/02rR1EcpuwIngiui00fTqyiuTxKHZgaygw?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjU4NTgxOTIzfQ.BNZW4lnmAR2UvfnOga8Iblb-B1BFPjQ9oduo8pL0S9g'
+					autoPlay
+					muted
+					loop
+				></video>
 			</BackgroundVid>
 			<Content>
 				<ProfileImg>
