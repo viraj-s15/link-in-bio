@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 import { SiLeetcode } from "react-icons/si"
-import { BsFileCode } from "react-icons/bs"
+import { BsFileCode, BsBookmarks } from "react-icons/bs"
 import AnimatedCursor from "react-animated-cursor"
 
 const App = () => {
@@ -73,6 +73,12 @@ const App = () => {
 						<a href='#' onClick={handleClick}>
 							<h2>Portfolio</h2>
 							<BsFileCode />
+						</a>
+					</span>
+					<span>
+						<a href='https://bloggy-viraj-s15.vercel.app' target='_blank'>
+							<h2>Blog</h2>
+							<BsBookmarks />
 						</a>
 					</span>
 				</Links>
